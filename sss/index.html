@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+    <title>Portfolio</title>
+</head>
+<body>
+  <div class="container">
+    <nav id="header">
+        <div class="nav-logo">Portfolio</div>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#home" class="nav-link active-link">首頁</a>
+            </li>
+            <li class="nav-item">
+                <a href="#book" class="nav-link">關於我</a>
+            </li>
+            <li class="nav-item">
+                <a href="#skill" class="nav-link">技術</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link">聯絡我</a>
+            </li>
+        </ul>
+        <div>
+            <button class="btn">下載履歷<i class="fa-regular fa-file-pdf"></i></button>
+        </div>
+      </nav>
+      <div class="social_icons">
+        <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+        <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+        <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+        <div class="icon"><i class="fa-brands fa-github"></i></div>   
+      </div>
+    <main class="wrapper">
+      <section id="home" class="home-box">
+         <div class="home-text">
+           <div class="tag"><span>徐靖涵(Emma)</span></div>
+           <div class="name">我是大學生</div>
+           <div class="subtitle">經驗不豐富的全端開發人員，熱衷於輕鬆得到學分並挑戰五年一貫(作夢)。</div>
+           <div class="text-btn">
+              <button type="button" class="btn blue-btn">Hire me</button>
+              <button class="btn">下載履歷<i class="fa-regular fa-file-pdf"></i></button>
+           </div>
+           <div class="icons">
+           </div>
+         </div>
+         <div class="home-image">
+          <div class="image">
+            <img src="./assets/images/2; b06.jpg" alt="2; b06" style="border-radius: 50%;" />
+          </div>
+         </div>
+      </section>
+      <section id="book" class="section">
+        <div class="top-header">
+          <h1>關於我</h1>
+          <span>就讀資訊工程中</span>
+        </div>
+        <div class="about-container">
+          <div class="introduce">
+            <div class="card">
+              <h3>簡介</h3>
+              <div>我不精通 HTML、CSS 和 JavaScript 以及其他先進的框架和庫，這使我沒能夠實現互動功能。此外，我還沒有使用內容管理系統（CMS）如 WordPress 的經驗。
+              </div>
+            </div>
+          </div>
+          <div class="contents">
+            <div class="list">
+              <h3>教育程度</h3>
+              <div class="item" style="white-space: pre;">三重高中畢業                                                   2020/9~2024/6</div>
+              <div class="item" style="white-space: pre;">銘傳大學就讀中                                                2024/9~</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skill" class="section">
+        <div class="top-header">
+          <h1>技術範圍</h1>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, rem.</span>
+        </div>
+        <div class="skill-container">
+          <div class="skill-item">
+            <span class="skill">
+              <span>Git</span>
+              <span>87%</span>
+            </span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" style="width: 87%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill">
+              <span>Html</span>
+              <span>0.1%</span>
+            </span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" style="width: 0.1%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill">
+              <span>CSS</span>
+              <span>8.8%</span>
+            </span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" style="width: 8.8%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill">
+              <span>Java</span>
+              <span>59%</span>
+            </span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" style="width: 59%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill">
+              <span>JavaScript</span>
+              <span>78%</span>
+            </span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" style="width: 78%"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="section">
+        <div class="top-header">
+          <h1>聯絡我</h1>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, rem.</span>
+        </div>
+        <div class="contact-container">
+          <div class="info">
+            <div class="contact-info">
+              <h2>聯絡資訊</h2>
+              <div><i class="fa-regular fa-envelope"></i>Email: xxx@gmail.com</div>
+              <div><i class="fa-solid fa-phone"></i>Tel: 09xx-xxx-xxxx</div>
+            </div>
+          </div>
+          <div class="form">
+            <input type="text" placeholder="姓名" />
+            <input type="email" placeholder="信箱" />
+            <textarea placeholder="訊息"></textarea>
+            <button class="btn">Send <i class="fa-regular fa-message"></i></button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <ul class="footer-menu">
+        <li class="menu-item">
+          <a href="#home">首頁</a>
+        </li>
+        <li class="menu-item">
+          <a href="#about">關於我</a>
+        </li>
+        <li class="menu-item">
+          <a href="#skill">技術</a>
+        </li>
+        <li class="menu-item">
+          <a href="#contact">聯絡我</a>
+        </li>
+      </ul>
+      <div class="footer-icons">
+        <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+        <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+        <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+        <div class="icon"><i class="fa-brands fa-github"></i></div>
+      </div>
+      <div class="bottom-footer">Copyright &copy; 2024</div>
+    </footer>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>

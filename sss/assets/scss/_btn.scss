@@ -1,0 +1,18 @@
+.btn{
+  font-weight: 500;
+  padding: 12px 20px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  align-items: flex-start;
+
+  &:hover{
+      background-color: var(--second-color);
+      color: var(--withe-color);
+  }
+
+  > i{
+    margin-left: 10px;
+  }
+}
